@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.files                 = Dir['CHANGELOG.md', 'MIT-LICENSE', 'README.md', 'lib/**/*']
   s.require_path          = 'lib'
 
-  s.add_dependency('json', '~> 1.7')
-  s.add_dependency('activesupport', '~> 3.2')
+  s.add_dependency('json', '~> 1.8.3')
+  s.add_dependency('activesupport', '~> 4.1.11')
 end
